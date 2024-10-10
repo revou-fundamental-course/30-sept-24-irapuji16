@@ -2,10 +2,19 @@
 
 body{
     margin: 0;
-    background: antiquewhite;
+    background: #F1EFEB;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+header.judul{
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #C6C09C;
+    text-align: center;
+    color: black;
 }
 
 .suhu-style{
@@ -27,21 +36,21 @@ body{
 }
 
 .form-btn-submit{
-    background-color: green;
-    color: white;
+    background-color: #FFC98B;
+    color: black;
 }
 
 .form-btn-reset{
-    background-color: blue;
-    color: white;
+    background-color: #E79796;
+    color: black;
 }
 
 .form-btn-reverse{
-    background-color: red;
-    color: white;
+    background-color: #C6C09C;
+    color: black;
 }
 
-#input-suhu{
+#input-suhu, #input-suhuF{
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -53,7 +62,7 @@ body{
     resize: none;
 }
 
-#hasil-suhu{
+#hasil-suhu, #hasil-suhuC{
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -65,7 +74,7 @@ body{
     resize: none;
 }
 
-#how-to-suhu{
+#how-to-suhu, #how-to-suhuC{
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -75,4 +84,12 @@ body{
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+}
+
+footer{
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: #C6C09C;
+    text-align: center;
+    color: black;
 }
